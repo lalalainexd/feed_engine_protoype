@@ -1,5 +1,5 @@
 body {
-  background-color: grey;
+  background-color: lightsteelblue;
 }
 
 header h1 {
@@ -26,6 +26,7 @@ header h1 {
 .all.container {
   padding: 0 50px;
   height: 100%;
+  background-color: gray;
 }
 
 #main-nav ul {
@@ -48,8 +49,10 @@ nav#feed-lists ul, nav#feed-lists li {
 
 
 nav#feed-lists li.feeds-run {
-  background-color: #7A7FBD;
+  background-color: lightblue;
   border: 1px solid;
+  text-align: center;
+  height: 50px;
 }
 
 #sidebar {
@@ -57,12 +60,15 @@ nav#feed-lists li.feeds-run {
 }
 
 .feed-item {
-  background-color: purple;
-  margin-bottom: 10px;
+  background-color: lightgray;
+  margin-bottom: 20px;
+  border-radius: 2px;
+  box-shadow: 0px 1px 1px;
 }
 
 .feed-expander {
   cursor: pointer;
+  text-align: center
 }
 
 .run-info-label {
@@ -72,7 +78,6 @@ nav#feed-lists li.feeds-run {
 }
 
 .run-info ul, .run-info li {
-  margin: 0;
   padding: 0;
 }
 
@@ -85,6 +90,22 @@ nav#feed-lists li.feeds-run {
   width: 250px;
   margin-right: auto;
   margin-left: auto;
+  display: block;
+  margin-top: 5%;
 }
+.user-photo {
+  width: 200px;
+  height: 200px;
+  border: solid green 1px
+}
+.user-photo-thumbnail {
+  width: 40px;
+  height: 40px;
+  border: solid green 1px
+}
+#top-nav {
+  width:;
+}
+
 
 
