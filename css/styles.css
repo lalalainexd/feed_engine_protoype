@@ -26,7 +26,8 @@ header h1 {
 .all.container {
   padding: 0 50px;
   height: 100%;
-  background-color: gray;
+  background-color: #4d4d4d;
+  opacity: .93;
 }
 
 #main-nav ul {
@@ -35,6 +36,11 @@ header h1 {
 
 #main-nav ul li{
   display: inline;
+  color: white;
+}
+#main-nav a{
+  display: inline;
+  color: white;
 }
 
 ul.feeds li .active {

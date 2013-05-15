@@ -14,24 +14,24 @@ var new_order_item = function(item) {
 }
 
 var show_text = function() {
-	$(this).text = "Show";
+	$(this).text = "Expand";
 }
 
 var hide_text = function() {
-	$(this).text = "Hide";
+	$(this).text = "Collapse";
 }
 
 var toggle_feed_item_details = function() {
-	$(".feed-details").after("<div class='feed-expander'>Show</div>");
+	$(".feed-details").after("<div class='feed-expander'>Expand</div>");
 	$(".feed-details").toggle();
 }
 
 var toggle_summary_on_click = function() {
 	$(this).prev().toggle(200);
-	if(this.innerHTML == "Hide")
-		this.innerHTML = "Show";
+	if(this.innerHTML == "Collapse")
+		this.innerHTML = "Expand";
 	else
-		this.innerHTML = "Hide";
+		this.innerHTML = "Collapse";
 }
 
 var switch_active_tab = function() {
