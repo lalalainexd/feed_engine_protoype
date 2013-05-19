@@ -1,5 +1,6 @@
 body {
-  background-color: lightsteelblue;
+  background-color: lightgray !important;
+  background-repeat: no-repeat;
 }
 
 header h1 {
@@ -20,14 +21,6 @@ header h1 {
 
 .current-user {
   margin-bottom: 25px;
-}
-
-
-.all.container {
-  padding: 0 50px;
-  height: 100%;
-  background-color: #4d4d4d;
-  opacity: .93;
 }
 
 #main-nav ul {
@@ -74,7 +67,8 @@ nav#feed-lists li.feeds-run {
 
 .feed-expander {
   cursor: pointer;
-  text-align: center
+  text-align: center;
+  background-color: gray;
 }
 
 .run-info-label {
@@ -110,7 +104,34 @@ nav#feed-lists li.feeds-run {
   border: solid green 1px
 }
 #top-nav {
-  width:;
+  display: inline;
+}
+#main-container {
+  padding: 0 50px;
+  height: 100%;
+  background-color: #4d4d4d;
+  overflow:auto;
+  padding-bottom: 180px;
+  padding-top: 2%;
+}
+#footer {
+  position: relative;
+  margin-top: 60px; /* negative value of footer height */
+  height: 80px;
+  clear:both;
+  background-color: #2C3E50;
+}
+#wrap {
+  min-height: 100%;
+}
+#nav-bar {
+  background-color: #2C3E50;
+}
+#nav-bar h1 {
+  color: white;
+}
+#top-nav a:hover {
+  color: #0088cc;
 }
 
 

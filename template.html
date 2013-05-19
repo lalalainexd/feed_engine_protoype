@@ -10,30 +10,28 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
 
-        <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="css/bootstrap.css">
         <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/Flat-UI-master/css/flat-ui.css">
+        <link rel="stylesheet" href="css/Flat-UI-master/css/bootstrap.css">
 
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
-    <body background="high-resolution-nature-backgrounds-1628235969.jpg">
+    <body>
         <!--[if lt IE 7]>
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
-        <div class="container", id="inner-back">
-          <div class="container", id="top-nav"></div>
-          <div class="all container">
-            <header class="row", id="inner-back">
-            <h1 class="span7">RunLine</h1>
-            <nav id="main-nav" class="span5">
-            <ul>
-              <li><a href="#">Bradley's Account</a></li>  |  
-              <li><a href="#">Logout</a></li>
-            </ul>
-            </nav>
-            </header>
-
+        <div id="wrap">
+          <nav id="nav-bar" class="navbar navbar-inner">
+            <div class="container" id="header-nav-content">
+              <h1 class="span7">RunLine</h1>
+              <ul class="nav pull-right" id="top-nav">
+                <li><a href="#">Bradley's Account</a></li>
+                <li><a href="#">Logout</a></li>
+              </ul>
+            </div>
+          </nav>
+          <div class="container" id="main-container">
             <div class="row">
               <aside id="sidebar" class="span3">
               <div class="current-user mini-profile">
@@ -43,14 +41,12 @@
               </div>
 
               <nav id="feed-lists">
-              <ul class="feeds">
-                  <li class="feeds-run"><a href="#">Fit Feed</a></li>
-                  <li class="feeds-run"><a href="#">Your Activity</a></li>
-                  <li class="feeds-run"><a href="#">Friends</a></li>
-                  <li class="feeds-run"><a href="#">Group Runs</a></li>
+                <ul class="nav nav-tabs nav-stacked">
+                  <li><a href="#">Fit Feed</a></li>
+                  <li><a href="#">Your Activity</a></li>
+                  <li><a href="#">Friends</a></li>
+                  <li><a href="#">Group Runs</a></li>
                 </ul>
-                </li>
-              </ul>
               </nav> <!-- end #feed-lists -->
               </aside><!-- end #sidebar -->
 
@@ -119,6 +115,7 @@
             </div>
           </div>
         </div>
+      <footer id="footer"></footer>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
@@ -133,5 +130,5 @@
               g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
               s.parentNode.insertBefore(g,s)}(document,'script'));
           </script>
-        </body>
-      </html>
+  </body>
+</html>
